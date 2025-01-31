@@ -1,5 +1,5 @@
 // tailwind.config.js
-module.exports = {
+const config = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -36,3 +36,4 @@ module.exports = {
   },
   plugins: [],
 };
+export default config;
